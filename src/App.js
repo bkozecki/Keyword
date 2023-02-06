@@ -1,5 +1,6 @@
 import Header from "./components/header/Header";
 import Search from "./components/Search/Search";
+import Footer from "./components/footer/Footer";
 
 import { useContext } from "react";
 import context from "./components/utils/Context";
@@ -16,6 +17,7 @@ function App() {
     >
       <Header />
       <Search />
+      <Footer />
     </div>
   );
 }
