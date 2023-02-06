@@ -1,0 +1,18 @@
+footer {
+  margin: auto;
+  color: #000;
+  margin-top: 30vh;
+
+  a {
+    color: #000;
+    transition: all 0.2s linear;
+
+    &:hover {
+      color: #c85c8e;
+    }
+  }
+
+  .dark {
+    color: #fff;
+  }
+}
