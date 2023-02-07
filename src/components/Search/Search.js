@@ -59,11 +59,11 @@ const Search = () => {
   }, [searchedWord]);
   return (
     <div className="search">
-      <div className={`search_input_wrapper ${error && "error"}`}>
+      <div className="search_input_wrapper">
         <input
           type="text"
           placeholder="Search a word..."
-          className={`search_input ${!ctx.sarif ? "search_input_sans" : ""}`}
+          className={`search_input ${!ctx.sarif ? "search_input_sans" : ""} ${error && "error"}`}
           value={searchedWord}
           onChange={inputHandler}
           ref={focusRef}
